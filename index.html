@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Typing Test</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link href='style.css' type='text/css' rel='stylesheet'>
+</head>
+<body>
+	<div id='container'>
+		<h1>Typing Test</h1>
+		<div id='text'>
+			<p><b>Instructions:</b> Press the START button, and a paragraph will appear. Type the text out onto the textarea as quickly and accurately as possible. Once completed press SUBMIT to view results.</p>
+		</div>
+		<br/>
+		<div id='main'>
+			<textarea disabled></textarea>
+		</div>
+		<button id='mybutton' class='btn btn-warning'>START</button>
+		<br/>
+		<div id='results'>
+			<p id='timetaken'></p>
+			<p id='score'></p>
+			<p id='missedwords'></p>
+			<p id='wpm'></p>
+		</div>
+	</div>
+	<script src='script.js'></script>
+</body>
+</html>
