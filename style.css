@@ -1,9 +1,9 @@
 body{
-	height:75vh;
-	background-color:lightcyan;
+	height:85vh;
 	display:flex;
 	flex-direction: column;
 	align-content: center;
+	background-image:url('bg.jpg');
 }
 #container{
 	margin:auto;
